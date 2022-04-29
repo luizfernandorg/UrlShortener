@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@336&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="section">
+            <header>URL Shortener Microservice</header>
+            <form action="/api/shorturl" method="post" id="shortForm">
+                <fieldset>
+                    <label for="url">
+                        <input type="text" name="url" placeholder="https://www.freecodecamp.com" id="url">
+                    </label>
+                    <button type="submit">Post URL</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
